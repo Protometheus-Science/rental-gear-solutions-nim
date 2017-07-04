@@ -1,0 +1,17 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Re-ignore all hidden files
+.*
+
+# But then un-re-ignore this file because it's good
+!.gitignore
+
+# Things to actually ignore
+nimcache
